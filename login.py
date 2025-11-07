@@ -1,5 +1,4 @@
-# this code is the perfect code that is working perfectly but the onlything that is not woring is incoming and outgoing command so i have to fix this thing and also set the sending the post and photo thing fix . bots/auto_forward_login_bot.py
-# ---------------------------------------------------
+#everything is working some commands are not added , sometime you have to use /work command to re start the autoforwarding because you commited some changes
 # Public (always on): /start, /help, /status, /login, /config, /upgrade, /upgrade_status, /logout
 # Premium required: /incoming, /outgoing, /work, /stop, /remove_incoming, /remove_outgoing,
 #                   /addfilter, /showfilter, /removefilter, /deleteallfilters, /delay
@@ -1361,3 +1360,4 @@ if __name__ == "__main__":
     except:
         pass
     bot.run_until_disconnected()
+
